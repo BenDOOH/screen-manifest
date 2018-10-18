@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='css/main.css')
+    script(src='scripts/jquery-3.3.1.min.js')
+  body
+    #contentWrapper
+      #HeaderContent
+        h1#title SCREEN MANIFEST
+      #BodyContent
+        h2 VIEW
+      #buttonBar
+        button#editButton(type='button', onclick='editScreens()') EDIT
+      #ViewContent
+        #viewScreen1
+          h3.h3spacing SCREEN 1 - WINDOWS           
+          ul
+            each val in screen1
+              li= val
+        #viewScreen1Context
+          p#s1Text
+        #viewScreen2
+          h3.h3spacing SCREEN 2 - LINUX
+          ul
+            each val in screen2
+              li= val
+        #viewScreen2Context
+          p#s2Text
+        #viewScreen3
+          h3.h3spacing SCREEN 3 - LINUX
+          ul
+            each val in screen3
+              li= val
+        #viewScreen3Context
+          p#s3Text
+        #viewScreen4
+          h3.h3spacing SCREEN 4 - WINDOWS
+          ul
+            each val in screen4
+              li= val
+        #viewScreen4Context
+          p#s4Text
+        #viewScreen5
+          h3.h3spacing SCREEN 5 - LINUX
+          ul
+            each val in screen5
+              li= val
+        #viewScreen5Context
+          p#s5Text
+        #viewScreen6
+          h3.h3spacing SCREEN 6 - LINUX
+          ul
+            each val in screen6
+              li= val
+        #viewScreen6Context
+          p#s6Text
+      #EditContent
+    script(src='scripts/main.js')

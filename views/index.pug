@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='css/main.css')
+    script(src='scripts/jquery-3.3.1.min.js')
+  body
+    #contentWrapper
+      #HeaderContent
+        h1#title SCREEN MANIFEST
+      #BodyContent
+        h2 VIEW
+      #buttonBar
+        button#editButton(type='button', onclick='editScreens()') EDIT
+      #ViewContent
+        #viewScreen1
+        each screen in screens
+          h3.h3spacing #{screen.section} #{screen.os} 
+            
+            each manifesto in manifestos
+              if manifesto.screen_id == screen.id
+                ul
+                  li #{manifesto.file_name} 
+                
+        #viewScreen1Context
+          p#s1Text
+        
+  
+    script(src='scripts/main.js')

@@ -1,0 +1,161 @@
+body
+{
+    background-color: #2F4858;
+}
+
+#contentWrapper
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    background-color: white;
+}
+
+#HeaderContent
+{
+   
+    padding: 10px;
+    width: 700px;
+    height: 30px;
+    background-color: #336699;
+    
+}
+
+#BodyContent
+{
+    padding: 10px;
+    width: 700px;
+    height: 30px;
+    background-color: #86BBD8;
+    margin: 0%;
+    
+}
+
+
+#title, h1
+{
+    padding: 0%;
+    color:white;
+    margin: 0%;
+    font-size: 30px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+    
+    
+}
+
+h2
+{
+    margin: 0%;
+    padding: 0px;
+    margin-left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#ViewContent
+{
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    background-color: #B9D8C2;
+    margin: 0;
+}
+
+#EditContent
+{
+    
+    padding: 0px;
+    width: 700px;
+    height: 0px;
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#ViewContent, #viewScreen1
+{
+    width:700px;
+}
+
+.h3spacing
+{   
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+
+}
+
+#s1text, #s2text, #s3text, #s4text, #s5text, #s6text
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 60px; 
+}
+
+#ViewContent
+{
+    width: 720px;
+    height: auto;;
+
+
+}
+
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul
+{
+    padding-top: 0px;
+    margin: 5px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+#editButton
+{
+    background-color: #9AC2C9; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid #2F4858;  
+    float: right; 
+    margin-right: 5px;    
+    transition-duration: 0.4s;
+}
+
+#editButton:hover
+{
+    background-color: #336699;
+    color: white;
+}
+
+#buttonBar
+{
+    height: 52px;
+    width: auto;
+    background-color: #86BBD8;
+
+}
+
+/*
+#336699
+#86BBD8
+#2F4858
+#B9D8C2
+#9AC2C9
+
+*/
